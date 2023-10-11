@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url(/CSS/header.css);
+@import url(/CSS/footer.css);
+@import url(/CSS/landing.css);
+@import url(/CSS/main.css);
