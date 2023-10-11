@@ -1,0 +1,39 @@
+footer {
+    color: #ffff;
+    background-color: #171D1C;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-copyright-and-p {
+    display: flex;
+    align-items: center;
+    margin-left: 90vh;
+    margin-right: 80vh;
+}
+
+.icon-copyright {
+    height: 40px;
+    width: 40px;
+}
+
+.icon-facebook {
+    background-color: #ffff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.icon-instagram {
+    background-color: #ffff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.icon-github {
+    height: 40px;
+    width: 40px;
+}
