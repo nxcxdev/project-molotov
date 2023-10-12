@@ -2,6 +2,72 @@
 @import url(/CSS/footer.css);
 @import url(/CSS/main.css);
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .form {
+    height: 50vh;
+    min-width: 30%;
+    padding: 3%;
     background-color: #FF9E45;
+    margin: 7% 30%;
+    border-radius: 10%;
+}
+
+.form h2{
+    color: #ffff;
+}
+
+.form-user-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+.form-input {
+    margin: 2vh 0;
+    width: 40vh;
+    height: 25px;
+    padding: 10px;
+    font-size: medium;
+}
+
+.form-login {
+    margin: 2vh 0;
+    padding: 10px;
+    background-color: #FF8514;
+    color: #ffff;
+}
+
+.form p {
+    color: #ffff;
+    margin: 1.5vh 0;
+}
+
+.icons-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+}
+
+.icons-form-google {
+    width: 30px;
+    height: 30px;
+    margin: 0 2vh;
+}
+
+.icons-form-facebook {
+    width: 40px;
+    height: 40px;
+    margin: 0 2vh;
+}
+
+.icons-form-github {
+    width: 32px;
+    height: 32px;
+    margin: 0 2vh;
 }
