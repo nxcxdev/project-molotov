@@ -16,8 +16,9 @@
     border-radius: 10%;
 }
 
-.form h2{
+.form h3{
     color: #ffff;
+    font-size: 25px;
 }
 
 .form-user-password {
@@ -45,6 +46,7 @@
 .form p {
     color: #ffff;
     margin: 1.5vh 0;
+    font-size: 25px;
 }
 
 .icons-form {

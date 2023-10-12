@@ -1,4 +1,5 @@
 footer {
+    padding: 0 2vh;
     color: #ffff;
     background-color: #171D1C;
     min-height: 15vh;
@@ -12,12 +13,17 @@ footer {
     display: flex;
     align-items: center;
     margin-left: 90vh;
-    margin-right: 80vh;
+    margin-right: 70vh;
+}
+
+.icon-copyright-and-p p {
+    font-size: 20px;
 }
 
 .icon-copyright {
     height: 40px;
     width: 40px;
+    margin: 0 2vh;
 }
 
 .icon-facebook {
@@ -32,9 +38,11 @@ footer {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    margin-left: 1vh;
 }
 
 .icon-github {
     height: 40px;
     width: 40px;
+    margin-left: 1vh;
 }
