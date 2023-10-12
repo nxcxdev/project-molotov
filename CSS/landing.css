@@ -2,3 +2,6 @@
 @import url(/CSS/footer.css);
 @import url(/CSS/main.css);
 
+.form {
+    background-color: #FF9E45;
+}
