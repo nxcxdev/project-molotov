@@ -49,3 +49,7 @@ header {
 #menu__wrapper:hover {
     background-color: #FF9E45;
 }
+
+#menu__wrapper:active {
+    background-color: #FF8514;
+}
