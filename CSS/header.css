@@ -1,5 +1,5 @@
 header {
-    height: 20vh;
+    height: 15vh;
     width: auto;
     background-color: #FF8514;
     display: grid;
@@ -48,6 +48,7 @@ header {
 
 #menu__wrapper:hover {
     background-color: #FF9E45;
+    cursor: pointer;
 }
 
 #menu__wrapper:active {
