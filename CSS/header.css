@@ -1,0 +1,51 @@
+header {
+    height: 15vh;
+    width: auto;
+    background-color: #FF8514;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+#logo__section {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo__section:hover {
+    cursor: default;
+}
+
+#logo__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 1rem;
+    margin: auto auto 0 auto;
+}
+
+#logo__section h1 {
+    margin: auto;
+    color: white;
+}
+
+#menu__section {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#menu__wrapper {
+    height: 64px;
+    width: 64px;
+    border-radius: 1rem;
+    margin: 1rem;
+    transition: 0.3s;
+}
+
+#menu__wrapper:hover {
+    background-color: #FF9E45;
+}
