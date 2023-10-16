@@ -2,8 +2,8 @@ footer {
     padding: 0 2vh;
     color: #ffff;
     background-color: #171D1C;
-    min-height: 15vh;
-    width: 100%;
+    min-height: 10vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
