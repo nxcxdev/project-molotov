@@ -9,8 +9,8 @@
 
 main {
     width: 100vw;
-    height: 75vh;
     display: flex;
+    flex-direction: column;
 }
 
 .form {
@@ -18,7 +18,7 @@ main {
     width: 50vh;
     padding: 3%;
     background-color: #FF9E45;
-    margin: auto;
+    margin: 5vh auto;
     border-radius: 10%;
 }
 

@@ -11,7 +11,7 @@ hr {
 }
 
 #usercard__container {
-    height: 45vh;
+    height: 50vh;
     width: auto;
     display: flex;  
     align-items: center;
@@ -37,6 +37,19 @@ hr {
     width: 40%;
     background-color: #FF9E45;
     border-radius: 2rem 0 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image__wrapper {
+    height: 150px;
+    width: 150px;
+    border-radius: 5rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #card__body {
